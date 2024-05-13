@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon server",
-    "serve": "node server"
+    "serve": "node server",
+    "start": "node server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -19,5 +20,8 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
-  }
+  },
+  "description": "Rest api using Node, Express, Mongo.\r We will build rest api for a simple file sharing app.",
+  "keywords": [],
+  "author": ""
 }
